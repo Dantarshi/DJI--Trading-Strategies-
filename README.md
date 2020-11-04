@@ -183,53 +183,6 @@ Strategies
 
 
 
-```python
-# Calculating the return and risk
-summary_ann(df[["DJI_Return", "Strategy_Ret"]])
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Return</th>
-      <th>Risk</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>DJI_Return</td>
-      <td>0.104777</td>
-      <td>0.174056</td>
-    </tr>
-    <tr>
-      <td>Strategy_Ret</td>
-      <td>0.058501</td>
-      <td>0.174145</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
 #### Forward Testing
 
 ##### Fitting
