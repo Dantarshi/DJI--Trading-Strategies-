@@ -201,10 +201,7 @@ plt.show()
 ![png](output_72_0.png)
 
 
-Our strategy out performed DJI buy and hold strategy
-
-
-
+Our strategy out performed DJI buy and hold strategy.
 
 
 We found a strategy that out performed our basic buy and hold strategy. We still need to further anlysis. . Backtesting vs Fitting was fitted and optimized on historic data. forward testing is definately required. Positional chages require cost in some trading platforms and that should be taken into consideration. Tax effects should be taken nto consideration as well
@@ -219,8 +216,6 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 ```python
 dji
 ```
-
-
 
 
 <div>
