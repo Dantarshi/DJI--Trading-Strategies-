@@ -213,43 +213,7 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 #### Simple Moving Averages
 
 
-```python
-# creating a 20 day moving average
-df_s.DJI_Close.rolling(window = 20).mean()
-```
 
-
-
-
-    Date
-    2010-01-05             NaN
-    2010-01-06             NaN
-    2010-01-07             NaN
-    2010-01-08             NaN
-    2010-01-11             NaN
-                      ...     
-    2020-09-28    27779.850781
-    2020-09-29    27730.981250
-    2020-09-30    27687.783203
-    2020-10-01    27623.603223
-    2020-10-02    27593.107227
-    Name: DJI_Close, Length: 2706, dtype: float64
-
-
-
-
-```python
-# adding the sma20 to our frame
-df_s["SMA20"] = df_s.DJI_Close.rolling(window = 20).mean()
-```
-
-
-```python
-# plotting the dji and sma20
-df_s[["DJI_Close", "SMA20"]].plot(figsize = (15,10), fontsize = 15)
-plt.legend(fontsize = 15)
-plt.show()
-```
 
 
 ![png](output_82_0.png)
