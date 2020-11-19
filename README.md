@@ -240,36 +240,6 @@ df_s.DJI_Close.rolling(window = 200).mean()
 
 
 
-    Date
-    2010-01-05             NaN
-    2010-01-06             NaN
-    2010-01-07             NaN
-    2010-01-08             NaN
-    2010-01-11             NaN
-                      ...     
-    2020-09-28    26277.101426
-    2020-09-29    26273.704473
-    2020-09-30    26271.936064
-    2020-10-01    26269.841113
-    2020-10-02    26266.919365
-    Name: DJI_Close, Length: 2706, dtype: float64
-
-
-
-
-```python
-# adding the sma200 to our frame
-df_s["SMA200"] = df_s.DJI_Close.rolling(window = 200).mean()
-```
-
-
-```python
-# plotting dji and sma200
-df_s[["DJI_Close", "SMA200"]].plot(figsize = (15,10), fontsize = 15)
-plt.legend(fontsize = 15)
-plt.show()
-```
-
 
 ![png](output_88_0.png)
 
