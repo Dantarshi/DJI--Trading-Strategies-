@@ -268,13 +268,6 @@ Strategies:
 
 
 
-```python
-# Plotting our position as a secondary axis
-df_s[["SMA20","SMA50", "SMA200", "Position"]].plot(figsize = (15,10), secondary_y = "Position", fontsize = 15)
-plt.show()
-```
-
-
 ![png](output_94_0.png)
 
 
