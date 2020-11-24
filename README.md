@@ -154,7 +154,7 @@ Strategies
 
 ##### Fitting
 
-When we plot our strategy and compare it with DJI
+When we plot our strategy (Forward Testing) and compare it with DJI
 
 ```python
 # Plotting dji and our strategy
