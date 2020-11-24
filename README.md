@@ -273,20 +273,6 @@ Strategies:
 
 
 
-```python
-# Converting our strategy to dji
-df_s["Strategy"] = df_s.Strategy_Ret.add(1, fill_value = 0).cumprod() * df_s.iloc[0,0]
-df_s
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
     .dataframe tbody tr th {
         vertical-align: top;
