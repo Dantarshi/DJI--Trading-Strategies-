@@ -128,24 +128,11 @@ Simple Momentum (active strategy to be tested):
 2.) short selling(-1) tomorrow if today return was negative
 
 
-#### The plotting our strategy against buy and hold strategy
+#### The plotting our strategy (Simple Moving Average) against buy and hold strategy
 
 
 
 ![png](output_51_0.png)
-
-
-
-```python
-# We have 252 trading days so we will make a function to calculate return and risk
-
-def summary_ann(returns):
-    summary = returns.agg(["mean", "std"]).T
-    summary["Return"] = summary["mean"]*252
-    summary["Risk"] = summary["std"]* np.sqrt(252)
-    summary.drop(columns = ["mean", "std"], inplace = True)
-    return summary
-```
 
 
 
