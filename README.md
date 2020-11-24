@@ -164,30 +164,18 @@ Our strategy out performed DJI buy and hold strategy.
 
 
 We found a strategy that out performed our basic buy and hold strategy. We still need to further anlysis.
-Backtesting vs Fitting was fitted and optimized on historic data. forward testing is definately required. Positional chages require cost in some trading platforms and that should be taken into consideration. Tax effects should be taken nto consideration as well
+Backtesting vs Fitting was fitted and optimized on historic data. forward testing is definately required. 
+Positional chages require cost in some trading platforms and that should be taken into consideration. Tax effects should be taken nto consideration as well
 
 DJI Return = 10.48%, Risk = 17.41%
 Fitting Strategy =  20.90%, Risk = 17.37%
 
 
 #### Simple Moving Averages
-
-
-
-
-
+50 Day moving average
 ![png](output_82_0.png)
 
-
-
-```python
-# creating a 50 day moving average
-df_s.DJI_Close.rolling(window = 50).mean()
-```
-
-
-
-
+200 day moving average
 ![png](output_85_0.png)
 
 
