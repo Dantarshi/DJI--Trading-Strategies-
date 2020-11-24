@@ -172,39 +172,25 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 
 
 #### Simple Moving Averages
-50 Day moving average
+
+20 Day moving average
 ![png](output_82_0.png)
 
-200 day moving average
+50 day moving average
 ![png](output_85_0.png)
 
 
 
-```python
-# creating a 200 day moving average
-df_s.DJI_Close.rolling(window = 200).mean()
-```
-
-
+200 day moving average
 ![png](output_88_0.png)
 
 
-
-```python
-# plot both sma20, sma50 and sma 200 on same graph
-df_s[["DJI_Close","SMA20","SMA50", "SMA200"]].plot(figsize = (15,10), fontsize = 15)
-plt.legend(fontsize = 15)
-plt.show()
-```
-
+20 day, 50day, 200 day moving average
 
 ![png](output_89_0.png)
 
 
  #### Crossovers Strategy
-
-
-
 
 Strategies:
     
