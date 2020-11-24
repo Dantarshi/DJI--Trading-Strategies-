@@ -156,14 +156,6 @@ Strategies
 
 When we plot our strategy (Forward Testing) and compare it with DJI
 
-```python
-# Plotting dji and our strategy
-df_f[["DJI_Close", "Strategy"]].plot(figsize = (15,10), fontsize = 15)
-plt.legend(fontsize = 15)
-plt.title("Simple Contrarian Strategy", fontsize = 20)
-plt.show()
-```
-
 
 ![png](output_72_0.png)
 
@@ -171,7 +163,8 @@ plt.show()
 Our strategy out performed DJI buy and hold strategy.
 
 
-We found a strategy that out performed our basic buy and hold strategy. We still need to further anlysis. . Backtesting vs Fitting was fitted and optimized on historic data. forward testing is definately required. Positional chages require cost in some trading platforms and that should be taken into consideration. Tax effects should be taken nto consideration as well
+We found a strategy that out performed our basic buy and hold strategy. We still need to further anlysis.
+Backtesting vs Fitting was fitted and optimized on historic data. forward testing is definately required. Positional chages require cost in some trading platforms and that should be taken into consideration. Tax effects should be taken nto consideration as well
 
 DJI Return = 10.48%, Risk = 17.41%
 Fitting Strategy =  20.90%, Risk = 17.37%
