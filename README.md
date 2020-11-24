@@ -109,9 +109,7 @@ The 30 constituente of Dow Jones
 ![png](output_44_0.png)
 
 
-
-
-Positions:
+#### Positions:
 
 +1: Investing in DJI (Long position)
 
