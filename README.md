@@ -180,12 +180,11 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 ![png](output_85_0.png)
 
 
-
 200 day moving average
 ![png](output_88_0.png)
 
 
-20 day, 50day, 200 day moving average
+20 day, 50day, 200 day moving average chart!
 
 ![png](output_89_0.png)
 
