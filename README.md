@@ -99,14 +99,14 @@ The 30 constituente of Dow Jones
 #### Dow Jones chart 
 
 
-![png](output_41_0.png)
+![png](Dow_jones_chart.png)
 
 
 
 #### A plot of Dow Jones Chart and Return on the secondary axis.
 
 
-![png](output_44_0.png)
+![png](DJC_R.png)
 
 
 #### Positions:
@@ -132,7 +132,7 @@ Simple Momentum (active strategy to be tested):
 
 
 
-![png](output_51_0.png)
+![png](SMS.png)
 
 
 
@@ -146,7 +146,7 @@ Strategies
 2.) Invest (+1) into DJI tomorrow if today's return was negative.
 
 
-![png](output_62_0.png)
+![png](SC.png)
 
 
 
@@ -157,7 +157,7 @@ Strategies
 When we plot our strategy (Forward Testing) and compare it with DJI
 
 
-![png](output_72_0.png)
+![png](fitting.png)
 
 
 Our strategy out performed DJI buy and hold strategy.
@@ -174,19 +174,19 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 #### Simple Moving Averages
 
 20 Day moving average
-![png](output_82_0.png)
+![png](SMA20.png)
 
 50 day moving average
-![png](output_85_0.png)
+![png](SMA50.png)
 
 
 200 day moving average
-![png](output_88_0.png)
+![png](SMA200.png)
 
 
 20 day, 50day, 200 day moving average chart!
 
-![png](output_89_0.png)
+![png](SMA20_50_200.png)
 
 
  
