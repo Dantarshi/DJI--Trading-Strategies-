@@ -128,7 +128,7 @@ Simple Momentum (active strategy to be tested):
 2.) short selling(-1) tomorrow if today return was negative
 
 
-#### The plotting our strategy (Simple Moving Average) against buy and hold strategy
+#### The plotting our strategy (Simple Momemtum Strategy) against buy and hold strategy
 
 
 
