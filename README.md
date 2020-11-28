@@ -103,7 +103,7 @@ The 30 constituente of Dow Jones
 
 
 
-#### A plot of Dow Jones Chart and Return on the secondary axis
+#### A plot of Dow Jones Chart and Return on the secondary axis.
 
 
 ![png](output_44_0.png)
