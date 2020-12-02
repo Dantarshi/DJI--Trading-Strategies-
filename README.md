@@ -96,7 +96,7 @@ The 30 constituente of Dow Jones.
     29     DIS
 
 
-#### Dow Jones chart 
+#### Dow Jones chart.
 
 
 ![png](Dow_jones_chart.png)
