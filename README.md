@@ -62,7 +62,7 @@ The cleaning of the data includes:
 * Checking for place holders.
 
 
-The 30 constituente of Dow Jones
+The 30 constituente of Dow Jones.
 
     0      MMM
     1      AXP
