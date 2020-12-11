@@ -188,4 +188,4 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 
 ![png](SMA20_50_200.png)
 
-Comparism!!!
+Comparism!!!!
