@@ -189,5 +189,5 @@ Fitting Strategy =  20.90%, Risk = 17.37%
 ![png](SMA20_50_200.png)
 
 After comparing these strategies, the most profitable one will be fitting strategy 
-even though it still needs to be worked on but it clearly shows us the wat forward
-when it comes to trading.
+even though it still needs to be worked on but it clearly shows us the way forward
+when it comes to trading strategies.
